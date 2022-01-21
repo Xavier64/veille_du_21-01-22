@@ -11,7 +11,7 @@
 <body>
     <!-- --------Formulaire pour la méthode $_GET -->
     <h2>Formulaire pour la superglobale $_GET</h2>
-    <form action="./php/get.php" method="get">
+    <form action="get.php" method="get">
         <p>Nom</p> <input type="text" name="nom"><br>
         <p>E-mail:</p> <input type="text" name="email"><br>
         <br>
@@ -20,7 +20,7 @@
 
     <!-- ------------Formulaire pour la méthode $_POST -->
     <h2>Formulaire pour la superglobales POST</h2>
-    <form action="./php/post.php" method="post">
+    <form action="post.php" method="post">
         <p>Nom:</p> <input type="text" name="nom"><br>
         <p>Prénom:</p> <input type="text" name="prenom"><br>
         <br>
@@ -32,7 +32,7 @@
     
     <!-- Debut du formulaire --> 
      <h2>Formulaire de téléchargement avec une méthode post pour la superglobale $_FILES</h2> 
-    <form enctype="multipart/form-data" action="./php/file.php" method="post">
+    <form enctype="multipart/form-data" action="file.php" method="post">
         <div>
                 <label>Envoyer le fichier :</label>
                 <input name="fichier" type="file" />
